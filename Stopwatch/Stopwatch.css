@@ -1,0 +1,76 @@
+body{
+font-family: Arial;
+background-image: linear-gradient(to right, rgb(192, 102, 96), rgb(183, 92, 164));
+}
+
+.countdown{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+
+.arrows{
+padding: 30px;
+width: 200px;
+border: transparent;
+}
+
+.arrows img{
+  object-fit: contain;
+  height: 50px;
+  border: transparent;
+}
+
+.time{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+}
+
+.hour, .minute, .second, .ms{
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 280px;
+}
+
+.stopwatch-start, .stopwatch-stop, .stopwatch-reset{
+  align-items: center;
+  justify-content: center;
+  padding: 70px;
+  margin: 0px 20px;
+  font-size: 35px;
+  border-radius: 50px;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+  border: transparent;
+}
+
+.stopwatch-start{
+  background-color: rgb(1, 97, 1);
+}
+
+.stopwatch-stop{
+  background-color: rgb(237, 79, 79);
+}
+
+.stopwatch-reset{
+  background-color: rgb(103, 103, 103) ;
+}
+
+.stopwatch-start:hover, .stopwatch-stop:hover, .stopwatch-reset:hover{
+  box-shadow: 3px 5px rgb(137, 137, 137);
+  margin-bottom: 2px;
+}
+
+.click-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

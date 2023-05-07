@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Timer/Stopwatch</title>
+        <link rel="stylesheet" href="Stopwatch.css">
+    </head>
+    <body>
+    <div class = "countdown">
+      <div class = "arrows"><button onclick = "upH();"><img src = "Image/Up arrow.png"></button></div>
+      <div class = "arrows"><button onclick = "upM();"><img src = "Image/Up arrow.png"></button></div>
+      <div class = "arrows"><button onclick = "upS();"><img src = "Image/Up arrow.png"></button></div>
+      <div class = "arrows"><button onclick = "upMs();"><img src = "Image/Up arrow.png"></button></div>
+    </div>
+    <div class = "time">
+      <div class="hour">0 hr :</div>
+      <div class="minute">0 m :</div>
+      <div class="second">0 s :</div>
+      <div class="ms">0 ms </div>
+    </div>
+    <div class = "countdown">
+      <div class = "arrows"><button onclick = "downH();"><img src = "Image/Down arrow.png"></button></div>
+      <div class = "arrows"><button onclick = "downM();"><img src = "Image/Down arrow.png"></button></div>
+      <div class = "arrows"><button onclick = "downS();"><img src = "Image/Down arrow.png"></button></div>
+      <div class = "arrows"><button onclick = "downMs();"><img src = "Image/Down arrow.png"></button></div>
+    </div>
+    <div class = "click-button">
+      <button class = "stopwatch-start" onclick = "start();">Stopwatch Start</button>
+      <button class = "stopwatch-stop" onclick = "stop();">Stopwatch stop</button>
+      <button class = "stopwatch-reset" onclick = "reset();">clear</button>
+    </div>
+    </body>
+    <script src = "Stopwatch.js"></script>
+</html>
